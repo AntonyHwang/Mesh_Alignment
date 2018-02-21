@@ -54,45 +54,248 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/AntonyHwang/Desktop/ICP_Alignment
+CMAKE_SOURCE_DIR = /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/ICP_Alignment.dir
+# Target rules for target CMakeFiles/iglFramework.dir
 
 # All Build rule for target.
-CMakeFiles/ICP_Alignment.dir/all:
-	$(MAKE) -f CMakeFiles/ICP_Alignment.dir/build.make CMakeFiles/ICP_Alignment.dir/depend
-	$(MAKE) -f CMakeFiles/ICP_Alignment.dir/build.make CMakeFiles/ICP_Alignment.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ICP_Alignment"
-.PHONY : CMakeFiles/ICP_Alignment.dir/all
+CMakeFiles/iglFramework.dir/all: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/all
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/depend
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19,20 "Built target iglFramework"
+.PHONY : CMakeFiles/iglFramework.dir/all
 
 # Include target in all.
-all: CMakeFiles/ICP_Alignment.dir/all
+all: CMakeFiles/iglFramework.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ICP_Alignment.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ICP_Alignment.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ICP_Alignment.dir/rule
+CMakeFiles/iglFramework.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 52
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/iglFramework.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/iglFramework.dir/rule
 
 # Convenience name for target.
-ICP_Alignment: CMakeFiles/ICP_Alignment.dir/rule
+iglFramework: CMakeFiles/iglFramework.dir/rule
 
-.PHONY : ICP_Alignment
-
-# clean rule for target.
-CMakeFiles/ICP_Alignment.dir/clean:
-	$(MAKE) -f CMakeFiles/ICP_Alignment.dir/build.make CMakeFiles/ICP_Alignment.dir/clean
-.PHONY : CMakeFiles/ICP_Alignment.dir/clean
+.PHONY : iglFramework
 
 # clean rule for target.
-clean: CMakeFiles/ICP_Alignment.dir/clean
+CMakeFiles/iglFramework.dir/clean:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/clean
+.PHONY : CMakeFiles/iglFramework.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/iglFramework.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 3rdparty/libigl/external/nanogui
+
+# Convenience name for "all" pass in the directory.
+3rdparty/libigl/external/nanogui/all: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/all
+3rdparty/libigl/external/nanogui/all: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/all
+3rdparty/libigl/external/nanogui/all: 3rdparty/libigl/external/nanogui/ext_build/glfw/all
+
+.PHONY : 3rdparty/libigl/external/nanogui/all
+
+# Convenience name for "clean" pass in the directory.
+3rdparty/libigl/external/nanogui/clean: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/clean
+3rdparty/libigl/external/nanogui/clean: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/clean
+3rdparty/libigl/external/nanogui/clean: 3rdparty/libigl/external/nanogui/ext_build/glfw/clean
+
+.PHONY : 3rdparty/libigl/external/nanogui/clean
+
+# Convenience name for "preinstall" pass in the directory.
+3rdparty/libigl/external/nanogui/preinstall: 3rdparty/libigl/external/nanogui/ext_build/glfw/preinstall
+
+.PHONY : 3rdparty/libigl/external/nanogui/preinstall
+
+#=============================================================================
+# Target rules for target 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir
+
+# All Build rule for target.
+3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/all: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/all
+3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/all: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/build.make 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/depend
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/build.make 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles --progress-num=21 "Built target nanogui"
+.PHONY : 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/all
+
+# Include target in all.
+all: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 46
+	$(MAKE) -f CMakeFiles/Makefile2 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 0
+.PHONY : 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/rule
+
+# Convenience name for target.
+nanogui: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/rule
+
+.PHONY : nanogui
+
+# clean rule for target.
+3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/clean:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/build.make 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/clean
+.PHONY : 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/clean
+
+# clean rule for target.
+clean: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir
+
+# All Build rule for target.
+3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/all:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/build.make 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/depend
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/build.make 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53 "Built target nanogui-obj"
+.PHONY : 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/all
+
+# Include target in all.
+all: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 32
+	$(MAKE) -f CMakeFiles/Makefile2 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 0
+.PHONY : 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/rule
+
+# Convenience name for target.
+nanogui-obj: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/rule
+
+.PHONY : nanogui-obj
+
+# clean rule for target.
+3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/clean:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/build.make 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/clean
+.PHONY : 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/clean
+
+# clean rule for target.
+clean: 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 3rdparty/libigl/external/nanogui/ext_build/glfw
+
+# Convenience name for "all" pass in the directory.
+3rdparty/libigl/external/nanogui/ext_build/glfw/all: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/all
+
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/all
+
+# Convenience name for "clean" pass in the directory.
+3rdparty/libigl/external/nanogui/ext_build/glfw/clean: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/clean
+
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/clean
+
+# Convenience name for "preinstall" pass in the directory.
+3rdparty/libigl/external/nanogui/ext_build/glfw/preinstall: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/preinstall
+
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/preinstall
+
+#=============================================================================
+# Directory level rules for directory 3rdparty/libigl/external/nanogui/ext_build/glfw/src
+
+# Convenience name for "all" pass in the directory.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/all: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all
+
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/all
+
+# Convenience name for "clean" pass in the directory.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/clean: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/clean
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/clean: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/clean
+
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/clean
+
+# Convenience name for "preinstall" pass in the directory.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/preinstall:
+
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/preinstall
+
+#=============================================================================
+# Target rules for target 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir
+
+# All Build rule for target.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/all: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build.make 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/depend
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build.make 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles --progress-num=1 "Built target glfw"
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/all
+
+# Build rule for subdir invocation for target.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 14
+	$(MAKE) -f CMakeFiles/Makefile2 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 0
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/rule
+
+# Convenience name for target.
+glfw: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/rule
+
+.PHONY : glfw
+
+# clean rule for target.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/clean:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build.make 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/clean
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/clean
+
+# clean rule for target.
+clean: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir
+
+# All Build rule for target.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build.make 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/depend
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build.make 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target glfw_objects"
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all
+
+# Include target in all.
+all: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 0
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/rule
+
+# Convenience name for target.
+glfw_objects: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/rule
+
+.PHONY : glfw_objects
+
+# clean rule for target.
+3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/clean:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build.make 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/clean
+.PHONY : 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/clean
+
+# clean rule for target.
+clean: 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/clean
 
 .PHONY : clean
 

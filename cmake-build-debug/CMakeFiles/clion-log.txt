@@ -1,18 +1,11 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/AntonyHwang/Desktop/ICP_Alignment
--- The C compiler identification is AppleClang 9.0.0.9000039
--- The CXX compiler identification is AppleClang 9.0.0.9000039
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework
+-- Using Cocoa for window creation
+-- NanoGUI: LTO support enabled.
+-- NanoGUI: using libc++ and libc++abi.
+-- NANOGUI_EXTRA_DEFS -DNANOGUI_SHARED;-DNVG_SHARED;-DGLAD_GLAPI_EXPORT
+-- NANOGUI_EXTRA_INCS: /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/3rdparty/libigl/external/nanogui/ext/glfw/include;/Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/3rdparty/libigl/external/nanogui/ext/nanovg/src;/Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/3rdparty/libigl/external/nanogui/ext/eigen
+-- NANOGUI_EXTRA_LIBS: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreVideo.framework;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/IOKit.framework
+-- EIGEN3_INCLUDE_DIR: /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/3rdparty/libigl/external/nanogui/ext/eigen
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug
+-- Build files have been written to: /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug

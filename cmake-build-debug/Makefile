@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/AntonyHwang/Desktop/ICP_Alignment
+CMAKE_SOURCE_DIR = /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug/CMakeFiles /Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/ICP_Alignment/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/AntonyHwang/Desktop/1/compM080-compGV18/IGLFramework/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,123 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ICP_Alignment
+# Target rules for targets named iglFramework
 
 # Build rule for target.
-ICP_Alignment: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ICP_Alignment
-.PHONY : ICP_Alignment
+iglFramework: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 iglFramework
+.PHONY : iglFramework
 
 # fast build rule for target.
-ICP_Alignment/fast:
-	$(MAKE) -f CMakeFiles/ICP_Alignment.dir/build.make CMakeFiles/ICP_Alignment.dir/build
-.PHONY : ICP_Alignment/fast
+iglFramework/fast:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/build
+.PHONY : iglFramework/fast
+
+#=============================================================================
+# Target rules for targets named nanogui
+
+# Build rule for target.
+nanogui: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nanogui
+.PHONY : nanogui
+
+# fast build rule for target.
+nanogui/fast:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/build.make 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui.dir/build
+.PHONY : nanogui/fast
+
+#=============================================================================
+# Target rules for targets named nanogui-obj
+
+# Build rule for target.
+nanogui-obj: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nanogui-obj
+.PHONY : nanogui-obj
+
+# fast build rule for target.
+nanogui-obj/fast:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/build.make 3rdparty/libigl/external/nanogui/CMakeFiles/nanogui-obj.dir/build
+.PHONY : nanogui-obj/fast
+
+#=============================================================================
+# Target rules for targets named glfw
+
+# Build rule for target.
+glfw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glfw
+.PHONY : glfw
+
+# fast build rule for target.
+glfw/fast:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build.make 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build
+.PHONY : glfw/fast
+
+#=============================================================================
+# Target rules for targets named glfw_objects
+
+# Build rule for target.
+glfw_objects: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glfw_objects
+.PHONY : glfw_objects
+
+# fast build rule for target.
+glfw_objects/fast:
+	$(MAKE) -f 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build.make 3rdparty/libigl/external/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build
+.PHONY : glfw_objects/fast
+
+src/cloudManager.o: src/cloudManager.cpp.o
+
+.PHONY : src/cloudManager.o
+
+# target to build an object file
+src/cloudManager.cpp.o:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/cloudManager.cpp.o
+.PHONY : src/cloudManager.cpp.o
+
+src/cloudManager.i: src/cloudManager.cpp.i
+
+.PHONY : src/cloudManager.i
+
+# target to preprocess a source file
+src/cloudManager.cpp.i:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/cloudManager.cpp.i
+.PHONY : src/cloudManager.cpp.i
+
+src/cloudManager.s: src/cloudManager.cpp.s
+
+.PHONY : src/cloudManager.s
+
+# target to generate assembly for a file
+src/cloudManager.cpp.s:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/cloudManager.cpp.s
+.PHONY : src/cloudManager.cpp.s
+
+src/decoratedCloud.o: src/decoratedCloud.cpp.o
+
+.PHONY : src/decoratedCloud.o
+
+# target to build an object file
+src/decoratedCloud.cpp.o:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/decoratedCloud.cpp.o
+.PHONY : src/decoratedCloud.cpp.o
+
+src/decoratedCloud.i: src/decoratedCloud.cpp.i
+
+.PHONY : src/decoratedCloud.i
+
+# target to preprocess a source file
+src/decoratedCloud.cpp.i:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/decoratedCloud.cpp.i
+.PHONY : src/decoratedCloud.cpp.i
+
+src/decoratedCloud.s: src/decoratedCloud.cpp.s
+
+.PHONY : src/decoratedCloud.s
+
+# target to generate assembly for a file
+src/decoratedCloud.cpp.s:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/decoratedCloud.cpp.s
+.PHONY : src/decoratedCloud.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -129,7 +235,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/ICP_Alignment.dir/build.make CMakeFiles/ICP_Alignment.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -138,7 +244,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/ICP_Alignment.dir/build.make CMakeFiles/ICP_Alignment.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -147,8 +253,62 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/ICP_Alignment.dir/build.make CMakeFiles/ICP_Alignment.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/mesh.o: src/mesh.cpp.o
+
+.PHONY : src/mesh.o
+
+# target to build an object file
+src/mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/mesh.cpp.o
+.PHONY : src/mesh.cpp.o
+
+src/mesh.i: src/mesh.cpp.i
+
+.PHONY : src/mesh.i
+
+# target to preprocess a source file
+src/mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/mesh.cpp.i
+.PHONY : src/mesh.cpp.i
+
+src/mesh.s: src/mesh.cpp.s
+
+.PHONY : src/mesh.s
+
+# target to generate assembly for a file
+src/mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/mesh.cpp.s
+.PHONY : src/mesh.cpp.s
+
+src/normalEstimation.o: src/normalEstimation.cpp.o
+
+.PHONY : src/normalEstimation.o
+
+# target to build an object file
+src/normalEstimation.cpp.o:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/normalEstimation.cpp.o
+.PHONY : src/normalEstimation.cpp.o
+
+src/normalEstimation.i: src/normalEstimation.cpp.i
+
+.PHONY : src/normalEstimation.i
+
+# target to preprocess a source file
+src/normalEstimation.cpp.i:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/normalEstimation.cpp.i
+.PHONY : src/normalEstimation.cpp.i
+
+src/normalEstimation.s: src/normalEstimation.cpp.s
+
+.PHONY : src/normalEstimation.s
+
+# target to generate assembly for a file
+src/normalEstimation.cpp.s:
+	$(MAKE) -f CMakeFiles/iglFramework.dir/build.make CMakeFiles/iglFramework.dir/src/normalEstimation.cpp.s
+.PHONY : src/normalEstimation.cpp.s
 
 # Help Target
 help:
@@ -158,10 +318,26 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ICP_Alignment"
+	@echo "... iglFramework"
+	@echo "... nanogui"
+	@echo "... nanogui-obj"
+	@echo "... glfw"
+	@echo "... glfw_objects"
+	@echo "... src/cloudManager.o"
+	@echo "... src/cloudManager.i"
+	@echo "... src/cloudManager.s"
+	@echo "... src/decoratedCloud.o"
+	@echo "... src/decoratedCloud.i"
+	@echo "... src/decoratedCloud.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mesh.o"
+	@echo "... src/mesh.i"
+	@echo "... src/mesh.s"
+	@echo "... src/normalEstimation.o"
+	@echo "... src/normalEstimation.i"
+	@echo "... src/normalEstimation.s"
 .PHONY : help
 
 
